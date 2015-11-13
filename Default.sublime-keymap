@@ -1,0 +1,13 @@
+[
+	{ "keys": ["\\"], "command": "run_multiple_commands", "args": 
+		{ "commands":
+			[
+		        {"command": "insert_snippet", "args": {"contents": "\\"}},
+		        {"command": "auto_complete"},
+		    ]
+		}, "context": 
+	  		[
+					{ "key": "selector", "operator": "equal", "operand": "text.tex.latex"},
+			]
+		},
+]
